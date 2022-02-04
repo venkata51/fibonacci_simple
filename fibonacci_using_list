@@ -1,0 +1,8 @@
+def fibinacci(value):
+    z=[0,1]
+    for i in range(2,100):
+        z.append(sum(z[-2:]))
+    return z
+
+
+fibinacci(100)
